@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lyrics Presentation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <select id="artist-select"></select>
+      <select id="song-select"></select>
+      <button type="submit">Show Lyrics</button>
+    </form>
+    <div id="controls" style="display: none;">
+      <button id="font-color-button">Font Color</button>
+      <div id="font-color-menu"> 
+        <label>
+          Red
+          <input type="color" value="#ff0000" />
+        </label>
+        <label>
+          Green
+          <input type="color" value="#00ff00" />
+        </label>
+        <label>
+          Blue
+          <input type="color" value="#0000ff" />
+        </label>
+      </div>
+      <button id="background-color-button">Background Color</button>
+      <button id="next-button">Next Verse</button>
+      <button id="repeat-button">Repeat Verse</button>
+      <button id="chorus-button">Chorus</button>
+    </div>
+    <div id="lyrics-container"></div>
+    <script src="script.js"></script>
+ 
